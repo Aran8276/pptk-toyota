@@ -17,8 +17,8 @@ export default function GRCorolla() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="snap-y snap-mandatory h-screen overflow-y-scroll">
-      <section className="snap-start relative overflow-clip text-white">
+    <div>
+      <section className="relative overflow-clip text-white">
         <iframe
           width="1440"
           height="720"
@@ -50,7 +50,7 @@ export default function GRCorolla() {
           </div>
         </div>
       </section>
-      <section className="snap-start">
+      <section>
         <div className="flex justify-center w-full">
           <Carousel className="w-full">
             <CarouselContent className="top-0">
