@@ -1,7 +1,7 @@
 import CarCard1 from "@/components/CarCard1";
 import FeatureCard from "@/components/FeatureCard";
 import { Button } from "@/components/ui/button";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import { Car, CarFront } from "lucide-react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
